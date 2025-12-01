@@ -7,9 +7,9 @@ from typing import List
 
 from constants.constants import CellValue, BOARD_SIZE
 
-from src.models.board import Board, InvalidCellError, InvalidMoveError
+from tic_tac_toe.models.board import Board, InvalidCellError, InvalidMoveError
 
-from src.utils.colorize import grey, red, green
+from tic_tac_toe.utils.colorize import grey, red, green
 
 TEST_BOARD_STATE: List[List[CellValue]] = [
     ["X", "O", None],

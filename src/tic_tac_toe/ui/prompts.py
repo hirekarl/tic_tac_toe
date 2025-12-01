@@ -10,9 +10,9 @@ from constants.constants import (
     CELL_KEY_TO_CELL_MAP,
 )
 
-from src.models.board import Board, InvalidCellError, InvalidMoveError
+from tic_tac_toe.models.board import Board, InvalidCellError, InvalidMoveError
 
-from src.utils.colorize import red, green, cyan
+from tic_tac_toe.utils.colorize import red, green, cyan
 
 
 class InvalidCellKeyError(Exception):

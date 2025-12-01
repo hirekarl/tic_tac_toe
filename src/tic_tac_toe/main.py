@@ -2,9 +2,9 @@
 
 import sys
 
-from src.models.board import Board
+from tic_tac_toe.models.board import Board
 
-from .game_loop import display_title, loop_game
+from tic_tac_toe.game_loop import display_title, loop_game
 
 
 def main() -> None:

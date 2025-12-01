@@ -15,7 +15,7 @@ from constants.constants import (
     GRID_BOTTOM,
 )
 
-from src.utils.colorize import grey, red, green
+from tic_tac_toe.utils.colorize import grey, red, green
 
 
 class InvalidCellError(Exception):

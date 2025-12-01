@@ -12,7 +12,7 @@ from constants.constants import (
     ANSI_RESET,
 )
 
-from src.utils.colorize import grey, red, green, cyan, yellow, magenta
+from tic_tac_toe.utils.colorize import grey, red, green, cyan, yellow, magenta
 
 
 class TestColorize(unittest.TestCase):

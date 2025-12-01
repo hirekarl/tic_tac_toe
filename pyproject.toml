@@ -20,7 +20,7 @@ classifiers = [
 dependencies = []
 
 [project.scripts]
-tic-tac-toe = "src.main:main"
+tic-tac-toe = "tic_tac_toe.main:main"
 
 [project.urls]
 Homepage = "https://github.com/hirekarl/tic_tac_toe"
@@ -29,7 +29,8 @@ Repository = "https://github.com/hirekarl/tic_tac_toe"
 "Bug Tracker" = "https://github.com/hirekarl/tic_tac_toe/issues"
 
 [tool.setuptools]
-packages = ["src", "constants"]
+package-dir = {"" = "src"}
+packages = ["tic_tac_toe"]
 
 [tool.mypy]
 exclude = '^tests/.* | ^test_.*\.py'

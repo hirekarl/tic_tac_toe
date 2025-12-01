@@ -4,11 +4,11 @@ from typing import Union, cast
 
 from constants.constants import PlayerMarker
 
-from src.models.board import Board
+from tic_tac_toe.models.board import Board
 
-from src.ui.prompts import prompt
+from tic_tac_toe.ui.prompts import prompt
 
-from src.utils.colorize import magenta, yellow
+from tic_tac_toe.utils.colorize import magenta, yellow
 
 
 def _end_game(board: Board, winner: Union[PlayerMarker, None]) -> None:
